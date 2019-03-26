@@ -1,0 +1,31 @@
+Comandos disponibles:
+
+Para crear un usuario:
+    --create_id <nombre> <email>
+
+Para buscar un usuario por nombre o email:
+    --search_id <cadena_de_busqueda>
+
+Para borrar un usuario creado:
+    --delete_id <id_de_usuario>
+
+Para subir un fichero:
+    --upload <path_a_fichero> [--dest_id <id_de_destinatario>]
+
+Para listar los ficheros subidos:
+    --list_files
+
+Para descargar un fichero:
+    --download <path_a_fichero> [--source_id <id_de_receptor>]
+
+Para borrar un fichero:
+    --delete_file <id_de_fichero>
+
+Para cifrar un fichero en local:
+    --encrypt <path_a_fichero> [--dest_id <id_de_destinatario>]
+
+Para firmar un fichero en local:
+    --sing <path_a_fichero>
+
+Para cifrar y firmar un fichero en local:
+    --enc_sign <path_a_fichero> [--dest_id <id_de_destinatario>]
